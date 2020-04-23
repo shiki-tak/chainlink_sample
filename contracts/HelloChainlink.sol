@@ -16,7 +16,7 @@ contract HelloChainlink is Chainlinked, Ownable {
   );
 
   constructor(address _oracle, bytes32 _jobId) public {
-    setLinkToken(0x01BE23585060835E02B77ef475b0Cc51aA1e0709);
+    setLinkToken(0x20fE562d797A42Dcb3399062AE9546cd06f63280);
     setOracle(_oracle);
     jobId = _jobId;
   }
